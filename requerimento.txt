@@ -1,0 +1,16 @@
+NumPy>=1.15
+setuptools
+cycler>=0.10.0
+kiwisolver>=1.0.0
+Pillow>=6.2
+pyparsing>=2.0.3
+
+Instalação:
+sudo apt install python3-matplotlib 
+requerimento.txt (arquivos necessários)
+
+import matplotlib
+matplotlib.use(‘TkAgg’) → Necessário devido a erro na importação do pyplot.
+import matplotlib.pyplot as plt 
+
+(…)
